@@ -1,2 +1,2 @@
 # LeetcodeProblems
-All potd f leetcode and practice problems of leetcode are here
+All potd of leetcode and practice problems of leetcode are here
