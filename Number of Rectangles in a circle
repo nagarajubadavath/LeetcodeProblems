@@ -1,0 +1,23 @@
+Given a circular sheet of radius, r. Find the total number of rectangles with integral length and width that can be cut from the sheet that can fit on the circle, one at a time.
+
+
+
+
+
+
+class Solution {
+  public:
+    int rectanglesInCircle(int r) {
+        // code here
+        int count=0;
+        for(int l=1;l<=2*r;l++){
+            for(int w=1;w<=2*r;w++){
+                if(l*l+w*w<=4*r*r)
+                {
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+};
